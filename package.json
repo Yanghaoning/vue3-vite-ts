@@ -19,6 +19,10 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.3",
+    "autoprefixer": "^10.4.7",
+    "lib-flexible": "^0.3.2",
+    "postcss-loader": "^7.0.0",
+    "postcss-pxtorem": "^6.0.0",
     "typescript": "^4.5.4",
     "vite": "^2.9.9",
     "vue-tsc": "^0.34.7"

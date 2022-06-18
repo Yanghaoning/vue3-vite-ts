@@ -1,6 +1,7 @@
 <template>
   <h1>{{ msg }}</h1>
   <button @click="inCrement"> count is: </button>
+  <div class="left"></div>
   <p>{{ count }}</p>
 </template>
 
@@ -28,3 +29,13 @@ export default defineComponent({
   }
 })
 </script>
+<style>
+  h1{
+    width: 100px;
+  }
+  .left{
+    width: 1920px;
+    height: 200px;
+    background: #16418a;
+  }
+</style>
